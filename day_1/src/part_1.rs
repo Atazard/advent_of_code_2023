@@ -1,7 +1,7 @@
 use std::fs;
 
 fn main() {
-    let input_file_path = concat!(env!("CARGO_MANIFEST_DIR"), "\\src\\_part_1_input.txt");
+    let input_file_path = concat!(env!("CARGO_MANIFEST_DIR"), "\\src\\part_1_input.txt");
 
     let calibration_document = match fs::read_to_string(input_file_path) {
         Ok(content) => content,
